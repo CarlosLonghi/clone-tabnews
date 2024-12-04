@@ -1,0 +1,19 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "clone project tabnews",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/CarlosLonghi/clone-tabnews"
+  },
+  "keywords": [
+    "clone-tabnews",
+    "curso.dev"
+  ],
+  "author": "CarlosLonghi",
+  "license": "MIT"
+}
