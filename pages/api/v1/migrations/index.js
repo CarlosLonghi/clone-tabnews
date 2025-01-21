@@ -2,6 +2,8 @@ import migrationRunner from "node-pg-migrate";
 import { join } from "node:path";
 import database from "infra/database.js";
 
+// ToDo: Corrigir bug, quando a requisição for diferente de POST ou GET, a conexão com o banco não está fechando.
+
 export default async function migrations(req, res) {
   const dbClient = await database.getNewClient();
   const defaultMigrationOptions = {
