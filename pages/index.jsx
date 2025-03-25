@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Home() {
   return (
     <div
@@ -23,7 +25,7 @@ function Home() {
           alignItems: "center",
         }}
       >
-        <img
+        <Image
           src="https://github.com/CarlosLonghi.png"
           alt="Foto de perfil"
           style={{
@@ -86,7 +88,7 @@ function Home() {
             aria-label="Link para meu LinkedIn"
             style={{ textDecoration: "none" }}
           >
-            <img
+            <Image
               src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
               alt="Logo do LinkedIn"
               style={{ height: "40px" }}
@@ -100,7 +102,7 @@ function Home() {
             aria-label="Link para meu GitHub"
             style={{ textDecoration: "none" }}
           >
-            <img
+            <Image
               src="https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white"
               alt="Logo do GitHub"
               style={{ height: "40px" }}
