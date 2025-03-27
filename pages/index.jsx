@@ -28,6 +28,8 @@ function Home() {
         <Image
           src="https://github.com/CarlosLonghi.png"
           alt="Foto de perfil"
+          width={420}
+          height={420}
           style={{
             borderRadius: "50%",
             width: "120px",
@@ -91,7 +93,8 @@ function Home() {
             <Image
               src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
               alt="Logo do LinkedIn"
-              style={{ height: "40px" }}
+              width={120}
+              height={36}
             />
           </a>
 
@@ -105,7 +108,8 @@ function Home() {
             <Image
               src="https://img.shields.io/badge/github-000?style=for-the-badge&logo=github&logoColor=white"
               alt="Logo do GitHub"
-              style={{ height: "40px" }}
+              width={120}
+              height={36}
             />
           </a>
         </div>
